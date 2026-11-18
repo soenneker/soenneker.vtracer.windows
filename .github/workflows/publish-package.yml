@@ -76,7 +76,7 @@ jobs:
         run: |
           dotnet nuget push ./artifacts/*.nupkg \
             --source "https://nuget.pkg.github.com/soenneker/index.json" \
-            --api-key "${{ secrets.GH__TOKEN }}" \
+            --api-key "${{ github.token }}" \
             --skip-duplicate
 
       - name: Create GitHub Release
