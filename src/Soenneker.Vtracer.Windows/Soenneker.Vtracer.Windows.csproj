@@ -46,7 +46,7 @@
     </ItemGroup>
     <ItemGroup><None Include="buildTransitive\Soenneker.Vtracer.Windows.targets" Pack="true" PackagePath="buildTransitive/" /></ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Soenneker.Vcruntime.Library" Version="11.0.4" />
+        <PackageReference Include="Soenneker.Vcruntime.Library" Version="11.0.5" />
     </ItemGroup>
 </Project>
 
